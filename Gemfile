@@ -60,3 +60,27 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem 'mini_racer', '~> 0.2.6'
+
+gem 'bootstrap', '~> 4.3.1'
+
+gem 'simple_form', '~> 5.0', '>= 5.0.1'
+
+gem 'jquery-rails'
+
+gem 'rails-i18n', '~> 5.1', '>= 5.1.3'
+
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+gem 'will_paginate-bootstrap', git: 'https://github.com/benitkibabu/will_paginate-bootstrap'
+gem 'will-paginate-i18n', '~> 0.1.15'
+
+gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'carrierwave-i18n', '~> 0.2.0'
+
+gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'devise-i18n', '~> 1.8', '>= 1.8.2'
+gem 'devise-bootstrap-views', '~> 1.1'
+
+gem 'cancancan', '~> 3.0', '>= 3.0.1'
