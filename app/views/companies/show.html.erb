@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @company.name %>
+</p>
+
+<p>
+  <strong>Cnpj:</strong>
+  <%= @company.cnpj %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @company.place %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @company.number %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @company.neighborhood %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @company.image %>
+</p>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
