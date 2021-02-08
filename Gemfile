@@ -76,7 +76,7 @@ gem 'will_paginate', '~> 3.2', '>= 3.2.1'
 gem 'will_paginate-bootstrap', git: 'https://github.com/benitkibabu/will_paginate-bootstrap'
 gem 'will-paginate-i18n', '~> 0.1.15'
 
-gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'carrierwave', '~> 2.1'
 gem 'carrierwave-i18n', '~> 0.2.0'
 
 gem 'devise', '~> 4.7', '>= 4.7.1'
